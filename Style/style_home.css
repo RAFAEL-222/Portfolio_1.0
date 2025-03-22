@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:OCR A Std, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141f27;
+}
+
+.container_nav {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background-color: black;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.item_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 21px;
+    gap: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#titulo {
+    font-size: 35px;
+    color: aqua;
+    position: absolute;
+    top: 190px;
+    left: 520px;
+}
+
+#paragrafo1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: OCR A Std, monospace;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 280px;
+    left: 420px;
+}
+
+
+main > section > img {
+    width:260px; /* Tamanho da imagem */
+    height:260px; /* Tamanho da imagem */
+    border-radius:50%; /* Torna a imagem redonda */
+    border: 6px solid #3894a3; /* Cor e espessura da borda */
+
+    object-fit: cover; /* Mantém a proporção da imagem */
+    position: absolute;
+    top: 190px;
+    left:120px;
+    transition: transform 0.3s ease; /* Transição suave para hover */
+
+    /* Sombra suave para melhorar o efeito visual */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .container_nav {
+        flex-direction:column;
+        height: auto;
+        justify-content: center;
+        align-items:center;
+        text-align:center;
+        gap: 0px;
+        
+    }
+
+    .item_nav {
+        flex-direction: column;
+        margin: 20px 0;
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    #titulo {
+        font-size: 28px;
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #paragrafo1 {
+        font-size: 18px;
+        position: static;
+        text-align: center;
+        margin: 15px;
+    }
+
+    main > section > img {
+        width: 180px;
+        height: 180px;
+        position: static;
+        display: block;
+        margin: 20px auto;
+    }
+}
