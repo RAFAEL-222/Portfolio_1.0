@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
+/*#141f27*/
 body {
-    background-color: #141f27;
+    background-color: #111111;
 }
 
 .container_nav {
@@ -32,7 +33,11 @@ body {
 a {
     color: white;
     text-decoration: none;
-    
+}
+
+/*Cor ao clicar no link*/
+.link:active {
+    color: aqua;
 }
 
 #titulo {
@@ -44,7 +49,7 @@ a {
 }
 
 #paragrafo1 {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
     font-family: OCR A Std, monospace;
     color: rgb(255, 255, 255);
@@ -53,12 +58,13 @@ a {
     left: 420px;
 }
 
-
+/*#3894a3*/
 main > section > img {
     width:260px; /* Tamanho da imagem */
     height:260px; /* Tamanho da imagem */
     border-radius:50%; /* Torna a imagem redonda */
-    border: 6px solid #3894a3; /* Cor e espessura da borda */
+    border: 6px solid aqua
+    ; /* Cor e espessura da borda */
 
     object-fit: cover; /* Mantém a proporção da imagem */
     position: absolute;
@@ -77,12 +83,10 @@ main > section > img {
         justify-content: center;
         align-items:center;
         text-align:center;
-        gap: 0px;
-        
     }
 
     .item_nav {
-        flex-direction: column;
+        flex-direction:row;
         margin: 20px 0;
         font-size: 18px;
         gap: 20px;
@@ -92,19 +96,19 @@ main > section > img {
         font-size: 28px;
         position: static;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     #paragrafo1 {
         font-size: 18px;
         position: static;
-        text-align: center;
-        margin: 15px;
+        text-align:left;
+        margin: 35px;
     }
 
     main > section > img {
-        width: 180px;
-        height: 180px;
+        width: 250px;
+        height: 250px;
         position: static;
         display: block;
         margin: 20px auto;

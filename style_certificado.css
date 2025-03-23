@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:OCR A Std, monospace;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+/*#141f27*/
+body {
+    background-color: #111111;
+}
+
+.container_nav {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background-color: black;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.item_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 21px;
+    gap: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Cor ao clicar no link*/
+.link:active {
+    color: aqua;
+}
+.curso:active {
+    color: aqua;
+}
+
+#certificados {
+    font-size: 35px;
+    color: aqua;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+
+.curso {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 83px;
+    text-decoration:underline;
+}
+
+@media (max-width: 768px) {
+    .container_nav {
+        flex-direction:column;
+        height: auto;
+        justify-content: center;
+        align-items:center;
+        text-align:center;
+    }
+
+    .item_nav {
+        flex-direction:row;
+        margin: 20px 0;
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    
+    .container_cert {
+        font-size: 28px;
+        position: static;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #certificados {
+        font-size: 28px;
+        position: static;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 1px;
+    }
+
+    main > section > a {
+        font-size: 16px; /* Define um tamanho adequado para telas menores */
+        display: block; /* Faz com que cada link ocupe a linha inteira */
+        text-align: left; /* Alinha o link à esquerda */
+        padding: 5px; /* Ajusta o espaçamento */
+}
+}
