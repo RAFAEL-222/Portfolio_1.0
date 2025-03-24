@@ -83,12 +83,14 @@ main > section > img {
         justify-content: center;
         align-items:center;
         text-align:center;
+        height: 12vh;
     }
 
     .item_nav {
         flex-direction:row;
         margin: 20px 0;
-        font-size: 18px;
+        font-size: 13px;
+        transform: scaleY(1.5);
         gap: 20px;
     }
 

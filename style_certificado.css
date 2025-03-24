@@ -58,7 +58,7 @@ a {
     position: absolute;
     top: 250px;
     left: 83px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -68,12 +68,13 @@ a {
         justify-content: center;
         align-items:center;
         text-align:center;
+        height: 12vh;
     }
 
     .item_nav {
         flex-direction:row;
         margin: 20px 0;
-        font-size: 18px;
+        font-size: 13px;
         gap: 20px;
     }
 
@@ -90,13 +91,13 @@ a {
         position: static;
         text-align: center;
         margin-top: 40px;
-        margin-bottom: 1px;
     }
 
-    main > section > a {
-        font-size: 16px; /* Define um tamanho adequado para telas menores */
-        display: block; /* Faz com que cada link ocupe a linha inteira */
-        text-align: left; /* Alinha o link à esquerda */
-        padding: 5px; /* Ajusta o espaçamento */
-}
+    .curso{
+        font-size: 18px;
+        position: absolute;
+        top: 180px;
+        left: 40px;
+        text-decoration: underline;
+    }
 }
