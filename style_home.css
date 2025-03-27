@@ -51,7 +51,6 @@ a {
 #paragrafo1 {
     font-size: 25px;
     font-weight: bold;
-    font-family: OCR A Std, monospace;
     color: rgb(255, 255, 255);
     position: absolute;
     top: 280px;
@@ -90,8 +89,8 @@ main > section > img {
         flex-direction:row;
         margin: 20px 0;
         font-size: 13px;
-        transform: scaleY(1.5);
-        gap: 20px;
+        transform: scaleY(1.4);
+        gap: 15px;
     }
 
     #titulo {
