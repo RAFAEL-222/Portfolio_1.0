@@ -30,6 +30,7 @@ body {
     gap: 50px;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -89,8 +90,7 @@ main > section > img {
         flex-direction:row;
         margin: 20px 0;
         font-size: 13px;
-        transform: scaleY(1.4);
-        gap: 15px;
+        gap: 20px;
     }
 
     #titulo {
