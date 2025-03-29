@@ -40,16 +40,11 @@ a {
 .link:active {
     color: aqua;
 }
-
-.container_tabela {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    margin-top: 152px;
-    gap: 30px;
+.github:active {
+    color: aqua;
 }
 
-#titulo {
+#projetos_p {
     font-size: 35px;
     color: aqua;
     position: absolute;
@@ -57,26 +52,13 @@ a {
     left: 200px;
 }
 
-#item_F {
-    font-size: 35px;
-    color: aqua;
-    position: absolute;
-    top: 160px;
-    left: 200px;
-}
-
-#item_O {
-    font-size: 35px;
-    color: aqua;
-    position: absolute;
-    top: 160px;
-    left: 200px;
-}
-
-.item {
+.github{
     font-size: 25px;
-    margin-left: 83px;
-    color: white;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 83px;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -95,38 +77,20 @@ a {
         font-size: 13px;
         gap: 20px;
     }
-    
-    #titulo {
+
+
+    #projetos_p {
         font-size: 28px;
         position: static;
         text-align: center;
         margin-top: 40px;
     }
 
-    #item_F {
-        font-size: 28px;
-        position: static;
-        text-align: center;
-        
-    }
-
-    #item_O {
-        font-size: 28px;
-        position: static;
-        text-align: center;
-    }
-
-    .container_tabela {
-        font-size: 28px;
-        position: static;
-        text-align: left;
-        margin-top: 40px;
-    }
-
-    .item{
-        font-size: 19px;
-        position: static;
-        text-align: left;
-        margin-left: 60px;
+    .github{
+        font-size: 18px;
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        text-decoration: underline;
     }
 }

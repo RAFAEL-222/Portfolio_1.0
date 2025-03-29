@@ -40,11 +40,17 @@ a {
 .link:active {
     color: aqua;
 }
-.curso:active {
-    color: aqua;
+
+.container_tabela {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 152px;
+    gap: 30px;
+    margin-left: 83px;
 }
 
-#certificados {
+#titulo {
     font-size: 35px;
     color: aqua;
     position: absolute;
@@ -52,13 +58,26 @@ a {
     left: 200px;
 }
 
-.curso {
-    font-size: 25px;
-    color: rgb(255, 255, 255);
+#item_F {
+    font-size: 35px;
+    color: aqua;
     position: absolute;
-    top: 250px;
-    left: 83px;
-    text-decoration: underline;
+    top: 630px;
+    left: 200px;
+}
+
+#item_O {
+    font-size: 35px;
+    color: aqua;
+    position: absolute;
+    top: 805px;
+    left: 200px;
+}
+
+.item {
+    font-size: 25px;
+    margin-left: 83px;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -77,19 +96,40 @@ a {
         font-size: 13px;
         gap: 20px;
     }
-
-    #certificados {
+    
+    #titulo {
         font-size: 28px;
         position: static;
         text-align: center;
-        margin-top: 40px;
+        margin: 40px;
+        margin-left: 35px;
     }
 
-    .curso{
-        font-size: 18px;
-        position: absolute;
-        top: 200px;
-        left: 40px;
-        text-decoration: underline;
+    #item_F {
+        font-size: 28px;
+        position: static;
+        text-align:center;
+        margin: 13px;
+    }
+
+    #item_O {
+        font-size: 28px;
+        position: static;
+        text-align: center;
+        margin: 13px;
+    }
+
+    .container_tabela {
+        font-size: 28px;
+        position: static;
+        text-align: left;
+        margin: 25px;
+    }
+
+    .item{
+        font-size: 19px;
+        position: static;
+        text-align: left;
+        margin-left: 40px;
     }
 }
