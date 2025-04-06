@@ -52,12 +52,19 @@ a {
     left: 200px;
 }
 
+.container_tabela {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 152px;
+    gap: 30px;
+    margin-left: 83px;
+}
+
 .curso {
     font-size: 25px;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 250px;
-    left: 83px;
+    margin-left: 83px;
+    color: white;
     text-decoration: underline;
 }
 
@@ -85,11 +92,18 @@ a {
         margin-top: 40px;
     }
 
+    .container_tabela {
+        font-size: 28px;
+        position: static;
+        text-align: left;
+        margin: 25px;
+    }
+
     .curso{
-        font-size: 18px;
-        position: absolute;
-        top: 200px;
-        left: 40px;
+        font-size: 19px;
+        position: static;
+        text-align: left;
+        margin-left: 40px;
         text-decoration: underline;
     }
 }

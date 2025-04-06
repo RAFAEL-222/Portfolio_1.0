@@ -58,22 +58,6 @@ a {
     left: 200px;
 }
 
-#item_F {
-    font-size: 35px;
-    color: aqua;
-    position: absolute;
-    top: 630px;
-    left: 200px;
-}
-
-#item_O {
-    font-size: 35px;
-    color: aqua;
-    position: absolute;
-    top: 805px;
-    left: 200px;
-}
-
 .item {
     font-size: 25px;
     margin-left: 83px;
@@ -103,20 +87,6 @@ a {
         text-align: center;
         margin: 40px;
         margin-left: 35px;
-    }
-
-    #item_F {
-        font-size: 28px;
-        position: static;
-        text-align:center;
-        margin: 13px;
-    }
-
-    #item_O {
-        font-size: 28px;
-        position: static;
-        text-align: center;
-        margin: 13px;
     }
 
     .container_tabela {
