@@ -61,6 +61,22 @@ a {
     text-decoration: underline;
 }
 
+.container_tabela {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 152px;
+    gap: 30px;
+    margin-left: 83px;
+}
+
+.item {
+    font-size: 25px;
+    margin-left: 83px;
+    color: white;
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .container_nav {
         flex-direction:column;
@@ -86,11 +102,20 @@ a {
         margin-top: 40px;
     }
 
-    .github{
-        font-size: 18px;
-        position: absolute;
-        top: 200px;
-        left: 40px;
+    
+    .container_tabela {
+        font-size: 28px;
+        position: static;
+        text-align: left;
+        margin: 25px;
+    }
+
+    .item{
+        font-size: 19px;
+        position: static;
+        text-align: left;
+        margin-left: 40px;
         text-decoration: underline;
     }
+    
 }
